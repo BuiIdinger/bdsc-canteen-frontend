@@ -10,9 +10,7 @@ export namespace WebSocket {
     connection.value = new window.WebSocket("ws://localhost");
 
     connection.value.onopen = (event: any) => {
-      setTimeout(() => {
-        LoadingScreen.visible.value = false;
-      }, 1000);
+      LoadingScreen.visible.value = false;
 
       // Send the message queue
       messageQueue.forEach((message) => {
