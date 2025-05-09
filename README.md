@@ -15,7 +15,7 @@ Now start the development server, which will be hosted a `http://localhost:3000`
 npm run dev
 ```
 
-To build for producation:
+To build for production:
 
 ```bash
 npm run build
