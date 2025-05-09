@@ -4,10 +4,13 @@
     :to="to"
   >
     <div>
-      <div :class="`flex justify-center transition-all duration-300 ${TabBar.activeRoute.value == to ? 'opacity-100' : 'opacity-70'}`">
-        <component :is="icon" />
+      <div :class="`flex justify-center transition-all duration-300 ${TabBar.activeRoute.value == to ? 'opacity-100 ' : 'opacity-70'}`">
+        <component
+          :class="`transition-all duration-300 ${TabBar.activeRoute.value == to ? 'stroke-[#4b7af1] ' : 'stroke-black'}`"
+          :is="icon"
+        />
       </div>
-      <div :class="`pt-[5px] text-[12px] transition-all duration-300 ${TabBar.activeRoute.value == to ? 'font-bold' : 'font-semibold'}`">
+      <div :class="`pt-[5px] text-[12px] transition-all duration-300 ${TabBar.activeRoute.value == to ? 'font-bold' : 'font-normal'}`">
         <p>{{ text }}</p>
       </div>
     </div>
