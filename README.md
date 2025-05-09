@@ -48,4 +48,5 @@ Strictly Prohibited Without Explicit Written Permission:
 
 # Notices
 
+Vector art is made by me.
 All icons are from [Feather Icons](https://feathericons.com/).
