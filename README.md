@@ -33,3 +33,19 @@ Check `package-lock.json` for a full list of dependencies.
 
 # Documentation
 Design choices, programs used for this whole assessment is available at [here](https://buildinger.org/projects/canteen/documentation.pdf).
+
+# License
+
+© Shayden Seymour - All Rights Reserved
+
+This repository is made publicly available solely for code review purposes by authorized moderators.
+
+Strictly Prohibited Without Explicit Written Permission:
+- Production deployment or hosting
+- Commercial use
+- Use by educational institutions
+- Any form of redistribution or forking for operational purposes
+
+# Notices
+
+All icons are from [Feather Icons](https://feathericons.com/).
