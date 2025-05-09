@@ -1,75 +1,35 @@
-# Nuxt Minimal Starter
+# Canteen frontend
+AS 91896-897 Programming and Processes Assessment.
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Building
 
-## Setup
-
-Make sure to install dependencies:
+Install dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+npm installl
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Now start the development server, which will be hosted a `http://localhost:3000` provided there are no other hosted npm websites:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
+To build for producation:
 
 ```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+To preview build:
 
 ```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+# Dependencies
+
+Check `package-lock.json` for a full list of dependencies.
+
+# Documentation
+Design choices, programs used for this whole assessment is available at [here](https://buildinger.org/projects/canteen/documentation.pdf).
