@@ -33,13 +33,13 @@ export namespace WebSocket {
     };
   }
 
-  export const send = (message: string): void => {
+  export const send = (message: Object): void => {
     if (!connection.value) {
-      messageQueue.push(message);
+      messageQueue.push(JSON.stringify(message));
       return;
     }
 
-    connection.value.send(message);
+    connection.value.send(JSON.stringify(message));
   }
 
 
