@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: [
     "@nuxtjs/tailwindcss",
-    "@nuxt/image"
+    "@nuxt/image",
+    "@pinia/nuxt",
   ],
 })
